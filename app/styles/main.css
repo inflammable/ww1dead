@@ -16,14 +16,14 @@ body {
   width:  10px;
   height: 18px;
   margin: 0 0 -3px 0;
-  background:url('../images/soldier.png');
+  background:url("../images/soldier.png");
   transition: all 1.5s ease-in-out;
   display: inline-block;
   vertical-align: top;
 }
 
 .soldier.dead {
-  background:url('../images/poppy.png');
+  background:url("../images/poppy.png");
   height:12px;
   margin: 0;
 }
