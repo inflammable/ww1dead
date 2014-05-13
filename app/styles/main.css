@@ -25,7 +25,7 @@ body {
 .soldier.dead {
   background:url("../images/poppy.png");
 }
-/* nth-child utter kills the framerate
+/* nth-child utterly kills the framerate
 
 .soldier:nth-child(3n) {
   margin-left: -1px;
@@ -35,6 +35,14 @@ body {
   margin-left: 1px;
 }
 */
+.soldier.stagger-in {
+  margin-left: -1px;
+}
+
+.soldier.stagger-out {
+  margin-left: 1px;
+}
+
 #gathering {
   transition: all 1s ease-out;
   width: auto;

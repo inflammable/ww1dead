@@ -57,9 +57,17 @@ $((function() {
       calendar = $('#calendar'),
       frequency = {},
       createPeople = function() {
-        var people = '';
+        var people = '',
+            stagger = 0;
         for(var i = 0; i < deathDateList.length; i++) {
-          people += '<div class="soldier ' + dateClassPrefix + dateReverse(deathDateList[i]) + '"></div>';
+          people += '<div class="soldier ' + dateClassPrefix + dateReverse(deathDateList[i]);
+          stagger = i % 10;
+          if (i % 10 === 3) {
+            people += ' stagger-in';
+          } else if (i % 10 === 7) {
+            people += ' stagger-out';
+          }
+          people += '"></div>';
         }
         field.html(people);
       },
