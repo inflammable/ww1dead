@@ -17,7 +17,7 @@ body {
   height: 18px;
   margin: 0 0 -3px 0;
   background:url("../images/soldier.png");
-  transition: all 1.5s ease-in-out;
+  /*transition: all 1.5s ease-in-out;*/
   display: inline-block;
   vertical-align: top;
 }
