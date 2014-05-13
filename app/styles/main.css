@@ -1,28 +1,46 @@
 body {
-    background: #fafafa;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #333;
-    font-family: Courier, serif;
+  background: #eaeaea;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  font-family: Courier, serif;
+  font-size: 14px;
+}
+
+.loading {
+  margin:0;
+  padding:0;
+  width:100%;
 }
 
 .soldier {
-  width:  4px;
-  height: 4px;
-  margin: 0 1px 1px 0;
-  background-color: #ccc;
+  width:  10px;
+  height: 18px;
+  margin: 0 0 -3px 0;
+  background:url('../images/soldier.png');
   transition: all 1.5s ease-in-out;
   display: inline-block;
   vertical-align: top;
 }
 
 .soldier.dead {
-  background-color: #000;
+  background:url('../images/poppy.png');
+  height:12px;
+  margin: 0;
+}
+
+.soldier:nth-child(3n) {
+  margin-left: -1px;
+}
+
+.soldier:nth-child(7n) {
+  margin-left: 1px;
 }
 
 #gathering {
   transition: all 1s ease-out;
-  width: 100%;
+  width: auto;
   line-height:0;
+  padding:0 0.5em;
 }
 
 #gathering:after {
@@ -33,19 +51,27 @@ body {
   background-color: #333;
 }
 
+.the-end #more-info {
+  color: #fff;
+}
+
+.the-end #calendar {
+  color: #fff;
+}
+
 #calendar {
   font-weight: bold;
-  font-size: 0.9em;
+  display: block;
+  width:auto;
   margin: 0;
-  text-align:right;
-  padding: 0 0.25em;
+  text-align:left;
+  padding: 0.25em 0.5em;
   color: #999;
 }
 
 #calendar:after {
   clear: both;
 }
-
 
 .hidden {
   display:none;
@@ -55,10 +81,19 @@ body {
   font-family: Courier, serif;
   font-weight: bold;
   font-size: 0.9em;
-  margin-left: 2px;
-  max-width: 25em;
+  margin: 8px 10px;
+  max-width: 30em;
   letter-spacing: -0.05em;
   font-weight: bold;
+}
+
+.right {
+  float:right;
+  margin-left: 0.5em;
+}
+
+a {
+  color: #ff2d00;
 }
 
 a:link: {
