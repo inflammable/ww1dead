@@ -24,8 +24,6 @@ body {
 
 .soldier.dead {
   background:url("../images/poppy.png");
-  height:12px;
-  margin: 0;
 }
 
 .soldier:nth-child(3n) {
