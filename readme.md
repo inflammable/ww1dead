@@ -10,7 +10,7 @@ The data for this was sourced from the [Commonwealth War Graves (CWGC) website](
 
 ##Technical stuff
 
-This was built using [Yeoman](http://yeoman.io/) though a built version is included in the `./build` folder.
+This was built using [Yeoman](http://yeoman.io/) though a built version is included in the `./dist` folder.
 
 In order to reinstall the components needed to run the various grunt commands available via Yeoman, you'll need to install NodeJS (with npm) and Bower run `npm install && bower install`.
 
