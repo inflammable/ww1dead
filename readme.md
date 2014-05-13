@@ -4,6 +4,8 @@
 
 Each soldier/block represents a single person from this list. The list is organised alphabetically by surname, though names are not included.
 
+[See a preview](http://dev.raromachine.com/ww1/).
+
 ##The data
 
 The data for this was sourced from the [Commonwealth War Graves (CWGC) website](http://www.cwgc.org), the actual data included is a list of the death dates converted to an unsorted Javascript array.
