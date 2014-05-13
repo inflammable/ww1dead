@@ -17,7 +17,7 @@ body {
   height: 18px;
   margin: 0 0 -3px 0;
   background:url("../images/soldier.png");
-  /*transition: all 1.5s ease-in-out;*/
+  transition: all 1.5s ease-in-out;
   display: inline-block;
   vertical-align: top;
 }
@@ -25,6 +25,7 @@ body {
 .soldier.dead {
   background:url("../images/poppy.png");
 }
+/* nth-child utter kills the framerate
 
 .soldier:nth-child(3n) {
   margin-left: -1px;
@@ -33,7 +34,7 @@ body {
 .soldier:nth-child(7n) {
   margin-left: 1px;
 }
-
+*/
 #gathering {
   transition: all 1s ease-out;
   width: auto;
