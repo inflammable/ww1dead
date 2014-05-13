@@ -1,0 +1,74 @@
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+    font-family: Courier, serif;
+}
+
+.soldier {
+  width:  4px;
+  height: 4px;
+  margin: 0 1px 1px 0;
+  background-color: #ccc;
+  transition: all 1.5s ease-in-out;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.soldier.dead {
+  background-color: #000;
+}
+
+#gathering {
+  transition: all 1s ease-out;
+  width: 100%;
+  line-height:0;
+}
+
+#gathering:after {
+  clear: both;
+}
+
+.the-end {
+  background-color: #333;
+}
+
+#calendar {
+  font-weight: bold;
+  font-size: 0.9em;
+  margin: 0;
+  text-align:right;
+  padding: 0 0.25em;
+  color: #999;
+}
+
+#calendar:after {
+  clear: both;
+}
+
+
+.hidden {
+  display:none;
+}
+
+#more-info {
+  font-family: Courier, serif;
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-left: 2px;
+  max-width: 25em;
+  letter-spacing: -0.05em;
+  font-weight: bold;
+}
+
+a:link: {
+  color: #999;
+}
+
+a:hover {
+  color: #f66;
+}
+
+a:active, a:visited {
+  color: #666;
+}
